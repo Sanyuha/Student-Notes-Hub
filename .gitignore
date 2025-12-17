@@ -47,3 +47,7 @@ logs/
 ehthumbs.db
 Desktop.ini
 
+# Cloudflare Workers file (not for GitHub)
+so-long.html
+cold-so-long.html
+
