@@ -1,0 +1,49 @@
+# Database configuration (contains sensitive credentials)
+db.php
+
+# Email configuration (contains sensitive credentials)
+email-config.php
+
+# User uploaded files
+uploads/
+!uploads/.gitkeep
+
+# Vendor dependencies (can be reinstalled)
+vendor/
+
+# Composer
+composer.lock
+composer.phar
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+

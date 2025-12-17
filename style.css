@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #6366f1;
+    --secondary-color: #f59e0b;
+    --success-color: #10b981;
+    --error-color: #ef4444;
+    /* ... more variables */
+}
+/* style.css */
+:root{--bg:#ffffff;--text:#1f2937;--card:#ffffff;}
+body.dark{--bg:#111827;--text:#f9fafb;--card:#1f2937;}
+body{background:var(--bg);color:var(--text);}
+.dark-toggle{background:none;border:none;font-size:1.2rem;cursor:pointer;color:var(--text);}
